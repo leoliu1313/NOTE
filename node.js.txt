@@ -7,7 +7,7 @@ Example of testing websites for javascript implementation
 - make buildj
 - make testj
 
-Install on Windows Cygwin
+Install on Windows cygwin
 - install node.js by using exe
 - install cygwin
 - export PATH=$PATH:"/cygdrive/c/Program Files/nodejs/"
