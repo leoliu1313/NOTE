@@ -1,2 +1,6 @@
 Install on Windows cygwin
 - install cygwin
+- install python and binutils from cygwin
+- install pip from python
+  - download get-pip.py from python website
+  - python get-pip.py
