@@ -1,6 +1,18 @@
-purpose
-- test javascript implementation for websites
+Purpose
+- test websites easily
 
-example
+Example of testing websites for javascript implementation
+https://github.com/beautify-web/js-beautify
+cd ./js-beautify
 make buildj
 make testj
+
+Install on Windows Cygwin
+- install node.js by using exe
+- install cygwin
+- export PATH=$PATH:"/cygdrive/c/Program Files/nodejs/"
+  - or, export PATH=$PATH:"/cygdrive/c/Program Files (86)/nodejs/"
+- dos2unix '/cygdrive/c/Program Files/nodejs/npm'
+- node -e "console.log('hello node')"
+  - this shall print hello node
+
