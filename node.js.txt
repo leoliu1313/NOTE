@@ -1,0 +1,6 @@
+purpose
+- test javascript implementation for websites
+
+example
+make buildj
+make testj
