@@ -2,10 +2,10 @@ Purpose
 - test websites easily
 
 Example of testing websites for javascript implementation
-https://github.com/beautify-web/js-beautify
-cd ./js-beautify
-make buildj
-make testj
+- https://github.com/beautify-web/js-beautify
+- cd ./js-beautify
+- make buildj
+- make testj
 
 Install on Windows Cygwin
 - install node.js by using exe
