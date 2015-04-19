@@ -8,15 +8,19 @@ install GUI
 edit files
 
 use GUI to sync files
-// which would run
-// git commit -m 'initial commit'
+// automatically running
+// git commit -m '<initial commit>'
 // and other commands
+
+revert the latest commit on my remote repository (history is gone)
+// git push origin +<the latest commit>^:master
+// for example
+// git push origin +1c11502e93823662726576e92bfe1d9be17f260e^:master
 
 pull request to original repository
 
-add changes to the latest existing commit if necessary
-// by doing the following
-// git add forgotten_file
+add changes to the latest commit
+// git add <forgotten_file>
 // git commit --amend
 
 ???
