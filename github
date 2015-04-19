@@ -1,0 +1,22 @@
+create or fork a repository
+
+set up travis-ci to run build test (optional)
+https://travis-ci.org/
+
+install GUI
+
+edit files
+
+use GUI to sync files
+// which would run
+// git commit -m 'initial commit'
+// and other commands
+
+pull request to original repository
+
+add changes to the latest existing commit if necessary
+// by doing the following
+// git add forgotten_file
+// git commit --amend
+
+???
