@@ -1,25 +1,32 @@
-create or fork a repository
+use web GUI to create or fork a repository
 
 set up travis-ci to run build test (optional)
 https://travis-ci.org/
 
-install GUI
+install pc GUI
 
-edit files
-
-use GUI to sync files
+{
+use web GUI to edit files
+}
+or
+{
+edit files on pc
+use pc GUI to sync files
 // automatically running
 // git commit -m '<initial commit>'
 // and other commands
+}
 
 revert the latest commit on my remote repository (history is gone)
+// use pc GUI to start github shell
 // git push origin +<the latest commit>^:master
 // for example
 // git push origin +1c11502e93823662726576e92bfe1d9be17f260e^:master
 
-pull request to original repository
+use web GUI to do pull request to original repository
 
 add changes to the latest commit
+// use pc GUI to start github shell
 // git add <forgotten_file>
 // git commit --amend
 
