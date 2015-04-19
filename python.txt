@@ -4,3 +4,12 @@ Install on Windows cygwin
 - install pip from python
   - download get-pip.py from python website
   - python get-pip.py
+
+Develop beautify-web/js-beautify
+- make buildp
+  - install js-beautify python module
+  - only need to do this once no matter any code change in the future
+  - edit ./python/*/*.py
+- make testp
+  - edit ./test/template/*
+  - edit ./test/data/*
