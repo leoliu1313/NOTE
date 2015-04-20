@@ -13,8 +13,9 @@ or
 edit files on pc
 use pc GUI to sync files
 // automatically running
-// git commit -m '<initial commit>'
-// and other commands
+// git add -A
+// git commit -m '<comment>'
+// git push origin master
 }
 
 revert the latest commit on my remote repository (history is gone)
@@ -27,7 +28,7 @@ use web GUI to do pull request to original repository
 
 add changes to the latest commit
 // use pc GUI to start github shell
-// git add <forgotten_file>
+// git add <forgotten file>
 // git commit --amend
 
 ???
