@@ -14,13 +14,24 @@ edit files on pc
 use pc GUI to sync files
 // automatically running
 // use "git status" to make sure nothing to commit, working directory clean
-// (use "git add <file>..." to update what will be committed)
-// (use "git checkout -- <file>..." to discard changes in working directory)
+// (use "git add <file>..." to update what will be committed), which is stage
+// the opposite command is "git reset <file>" to unstage but not to revert the content
+// (use "git checkout -- <file>..." to discard changes in working directory), which is revert
 // use "git status" to make sure <file> included
 // git commit -m '<comment>'
 // use "git status" to make sure nothing to commit, working directory clean
+// use "git push -u origin master" to remember the parameters so that next time we can simply run "git push"
+// the opposite command is "git pull origin master"
 // git push origin master
 // use "git status" to make sure nothing to commit, working directory clean
+}
+
+{
+use web GUI to see commit log
+}
+or
+{
+git log
 }
 
 revert the latest commit on my remote repository (history is gone)
@@ -33,6 +44,8 @@ revert the latest commit on my remote repository (history is gone)
 use web GUI to do pull request to original repository
 
 make sure travis-ci build test is passed
+
+git diff HEAD
 
 add changes to the latest commit
 // use pc GUI to start github shell
