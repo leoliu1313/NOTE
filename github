@@ -44,6 +44,9 @@ revert the latest commit on my remote repository (history is gone)
 use web GUI to do pull request to original repository
 
 make sure travis-ci build test is passed
+if is possible that Makefile updates output files different from the committed files
+this would be a merge issue for pull request
+remember to commit the output files as well
 
 git diff HEAD
 
