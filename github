@@ -13,9 +13,14 @@ or
 edit files on pc
 use pc GUI to sync files
 // automatically running
-// git add -A
+// use "git status" to make sure nothing to commit, working directory clean
+// (use "git add <file>..." to update what will be committed)
+// (use "git checkout -- <file>..." to discard changes in working directory)
+// use "git status" to make sure <file> included
 // git commit -m '<comment>'
+// use "git status" to make sure nothing to commit, working directory clean
 // git push origin master
+// use "git status" to make sure nothing to commit, working directory clean
 }
 
 revert the latest commit on my remote repository (history is gone)
@@ -23,12 +28,13 @@ revert the latest commit on my remote repository (history is gone)
 // git push origin +<the latest commit>^:master
 // for example
 // git push origin +1c11502e93823662726576e92bfe1d9be17f260e^:master
+// git reset HEAD^ --hard
 
 use web GUI to do pull request to original repository
+
+make sure travis-ci build test is passed
 
 add changes to the latest commit
 // use pc GUI to start github shell
 // git add <forgotten file>
 // git commit --amend
-
-???
